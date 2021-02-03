@@ -1,0 +1,148 @@
+LOCUS       BONZ01000053            3493 bp    DNA     linear   BCT 29-JAN-2021
+DEFINITION  Rugosimonospora africana NBRC 104875 DNA, sequence053, whole genome
+            shotgun sequence.
+ACCESSION   BONZ01000053 BONZ01000000
+VERSION     BONZ01000053.1
+DBLINK      BioProject: PRJDB10018
+            BioSample: SAMD00231958
+KEYWORDS    WGS; STANDARD_DRAFT.
+SOURCE      Rugosimonospora africana
+  ORGANISM  Rugosimonospora africana
+            Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;
+            Rugosimonospora.
+REFERENCE   1
+  AUTHORS   Komaki,H. and Tamura,T.
+  TITLE     Whole genome shotgun sequence of Rugosimonospora africana NBRC
+            104875
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3493)
+  AUTHORS   Ichikawa,N., Komaki,H., Tamura,T. and Uohara,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2021) Contact:Director-General Biological
+            Resource Center National Institute of Technology and Evaluation,
+            NITE Biological Resource Center; 2-49-10 Nishihara, Shibuya-ku,
+            Tokyo 151-0066, Japan URL :https://www.nite.go.jp/nbrc/index.html
+COMMENT     Annotated using prokka 1.11 from http://www.vicbioinformatics.com.
+            Annotated at DFAST https://dfast.nig.ac.jp/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: newbler v. 3.0
+            Genome Coverage       :: 79x
+            Sequencing Technology :: Illumina HiSeq 1000
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3493
+                     /organism="Rugosimonospora africana"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="sequence053"
+                     /strain="NBRC 104875"
+                     /isolation_source="Soil"
+                     /culture_collection="NBRC:104875"
+                     /type_material="type strain of Rugosimonospora africana"
+                     /db_xref="taxon:556532"
+                     /country="Cameroon"
+     gene            237..2402
+                     /gene="fusA_2"
+                     /locus_tag="Raf01_55500"
+     CDS             237..2402
+                     /gene="fusA_2"
+                     /locus_tag="Raf01_55500"
+                     /inference="COORDINATES: ab initio
+                     prediction:MetaGeneAnnotator"
+                     /inference="similar to AA sequence:RefSeq:WP_013227139.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="elongation factor G"
+                     /protein_id="GIH17378.1"
+                     /translation="MAQKAQEKGVTGPAPVVDEPGRVRNVVLVGHSGAGKTTLVEALL
+                     AATGTIGRAGSVTEGTTISDHDPAAVRQQRSVSLSCASLLHNDIKVNLLDTPGYADFV
+                     GELRAGLRAADAALFVVSAVDGMDAATGALWEECAAVGMPRAVAVTRLDHQRADFEET
+                     VALCRRVFGDNVLPLYLPLHGDDGVSVVGLIGLISQRVFDYSDGYPPQVREPDAEHLP
+                     AIEDARGELLEGIIAESEDETLMERYLGGEDIESSVIVEDLEKAVAHATFYPVVPVCA
+                     ETGVGLDALLEILTSAFPSPPEHTLPAVAGLHGEPRDPLTCDANGPLVAEVVKTTVDP
+                     YVGRVSLVRVFSGTLRPESAVHISGHGMEERGHADHDADERVTHIYSPLGAQVREVPY
+                     CVAGDICAITKSTTAETGDTISDKDDPVLIEPWEMPEPLLPVAIVAKTRSDEDSLAKN
+                     LGRLVAGDPTLRRERNPETHQLVLWCMGEAHADVVLDRLRSGGVELDTEPVKVALRET
+                     FGASSKGHGRHVKQSGGHGQYAVCDIEVQPLPRGTGFEFVDKVVGGSVPHNYIPSVEK
+                     GVRAQMERGIAAGYPVVDLRVTLFDGKAHSVDSSDAAFQTAGSLALKEAADKGQVTLL
+                     EPVDEIFIRVPDGFVGAVMSDLSGRRGRVLGTEPDENGGEKTLVHAEVPATELVRYAV
+                     ELRAMTSGTGTFRRSFARYDPMPAHLADQVKKEHAAAHG"
+     gene            complement(2436..3419)
+                     /locus_tag="Raf01_55510"
+     CDS             complement(2436..3419)
+                     /locus_tag="Raf01_55510"
+                     /inference="COORDINATES: ab initio
+                     prediction:MetaGeneAnnotator"
+                     /inference="similar to AA sequence:RefSeq:WP_012709256.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="aldo/keto reductase"
+                     /protein_id="GIH17379.1"
+                     /translation="MMSTRILGRSGIEVSALGMGCWAIGGPFWSGDQPLGWGEVDDEE
+                     SVRAVRRALDLGVTFFDTANVYGCGHSERVLGRALGADRDRAVIATKWGNLFDEQTRQ
+                     KGGRDTTPAGVRTALEASLRRLGTDYIDLYQLHVGDLPVPAALDLVPALDEAVKAGSI
+                     RGYAWSTDDSERVAAFAEASVSVTAVQHDFSVLNDDQPMLDVCDRFDLASVNRGPLAM
+                     GLLTGKYTADSRLGGDDVRGIAPEWMRYFVDGRPAPEWLARVDAVREILTSDGRTLVQ
+                     GALGWLWARSPRTVPIPGCRTVAQVEENAGALERGPLTAEQVAQIASLLGR"
+ORIGIN      
+        1 cggtcccatc cgtgcccggc tgggcgttga tcgtggccgc gacccctcgt atatcggccc
+       61 gtggggccgg ctggttcact gtttcccggt cgggccggcg aagagtccct catgggtgtg
+      121 tgcgtcgggg ttgtgccacg ccctccaccg gagtggaatc gcaaccaaga ggtaacccgg
+      181 cgttcaagag cgccaaccaa cggcgctcgg agacccagac cgagggaggt gcgccgatgg
+      241 cgcagaaggc ccaggagaag ggagtcaccg gcccagcgcc ggtggtggac gagcccggca
+      301 gggtacgcaa cgtggtgctc gtcggacact ccggcgcggg taagacgact ctggtggagg
+      361 cgctgctcgc ggcgaccgga acgatcggcc gggcgggttc ggtcaccgag ggcaccacga
+      421 tcagcgacca cgatccggcg gcggtacgcc agcagcgctc ggtgagcctg tcctgcgcgt
+      481 cgctgcttca caacgacatc aaggtcaacc tgctggacac cccgggctac gccgacttcg
+      541 tgggcgaact gcgcgccgga ctgcgggccg cggacgcggc gctgttcgtc gtgtcggccg
+      601 tcgacggcat ggacgcggcg acgggagccc tgtgggagga gtgcgcggcg gtcggcatgc
+      661 cccgggccgt cgcggtgacc cggctggatc accagcgggc cgacttcgag gagacggtgg
+      721 cgctgtgccg gcgggtgttc ggcgacaacg tactgccgct gtacctgccg ctgcacggcg
+      781 acgacggggt atcggtggtc ggcctgatcg ggctgatctc gcagcgcgtg ttcgactaca
+      841 gcgacgggta cccgccgcag gtccgcgagc ccgacgccga gcacctgccg gccatcgagg
+      901 atgcccgggg cgaactcctg gaggggatca tcgcggaaag cgaggacgag accctcatgg
+      961 agcgctacct cggcggcgag gacatcgagt cctcggtgat cgtcgaggac ctggagaagg
+     1021 cggtcgcgca cgcgaccttc tacccggtcg tcccggtctg cgccgagacc ggggtcggtc
+     1081 tcgacgccct gctggagatc ctgaccagcg cgttcccgtc cccgccggag cacacgctgc
+     1141 cggccgtcgc cggcctgcat ggcgagcccc gcgatccgct gacctgtgac gcgaacggcc
+     1201 cgctggtcgc cgaggtggtc aagacgaccg tcgacccgta cgtcggccgg gtgtcactgg
+     1261 tccgggtctt ttccggcacg ctgcgtccgg agagtgcggt acacatctcc ggtcacggca
+     1321 tggaggagcg cggtcacgcg gaccacgacg ccgacgagcg ggtgacgcac atctactcgc
+     1381 cgctgggcgc gcaggtgcgc gaggtgccct actgcgtggc cggcgacatc tgcgcgatca
+     1441 ccaagtccac caccgcggag accggcgaca ccatctccga caaggacgac ccggtgctga
+     1501 tcgagccgtg ggagatgccc gagccgctgc tgccggtggc catcgtcgcg aagacccggt
+     1561 ccgacgagga ctcgctggcc aagaacctgg gccggctcgt cgcgggcgac ccgacgctgc
+     1621 ggcgggaacg caacccggag acccaccagc tggtgctgtg gtgcatgggc gaggcgcacg
+     1681 ccgacgtggt gctcgaccgg ctgcggtccg gcggagtgga gctggacacc gagccggtca
+     1741 aggtggcgtt gcgcgagacg ttcggcgcct cgtcgaaggg gcacggccgg cacgtgaagc
+     1801 agtccggcgg gcacggtcag tacgcggtct gcgacatcga ggtgcagccg ctgccccgcg
+     1861 gcaccggctt cgagttcgtc gacaaggtgg tcggcggctc cgtaccccac aactacatac
+     1921 cgagcgtgga aaagggggtg cgggcgcaga tggaacgcgg gatcgccgcc gggtatccgg
+     1981 tggtcgacct gcgggtgacc ctcttcgacg gcaaggccca ctcggtggac tcctccgacg
+     2041 ccgcgttcca gaccgccggc agcctggccc tgaaggaggc cgccgacaag ggacaggtga
+     2101 cgctgctcga accggtggat gagatcttca tccgggtacc ggacgggttc gtcggcgcgg
+     2161 tgatgagcga cctgtccgga cggcggggcc gggtgctggg taccgaacct gacgagaacg
+     2221 gcggggagaa gaccctggta cacgccgagg taccggccac cgagctggtc cggtacgcgg
+     2281 tggagctgcg cgccatgacc tcgggtaccg gtaccttccg gcgttccttc gcccgctacg
+     2341 acccgatgcc cgcgcacctg gccgaccagg tcaagaagga gcatgccgcc gctcacggct
+     2401 gagcggcggc atgctcccgg cttggcagta gtggctcagc ggccgagcag gctcgcgatc
+     2461 tgcgcgacct gctcggccgt cagcggtccg cgctccagcg cgccggcgtt ctcctccacc
+     2521 tgcgcgacgg tgcggcagcc cgggatcggt accgtccggg ggctacgcgc ccacagccag
+     2581 cccagcgcgc cctggaccag cgtgcggccg tcgctcgtga ggatctcccg gaccgcgtcc
+     2641 acccgggcca gccactccgg cgccggcctg ccatcgacga agtagcgcat ccactccggc
+     2701 gcgatgccgc gcacgtcgtc gccgcccagc cgcgagtccg ccgtgtactt gccggtcagc
+     2761 aggcccatcg ccagcgggcc acggttgacg ctggccaggt cgaaccggtc gcacacgtcg
+     2821 agcatcggct gatcgtcgtt cagcaccgag aagtcgtgct gtaccgcggt caccgagacg
+     2881 ctggcctcgg cgaacgccgc gacgcgctcc gagtcgtcgg tgctccacgc gtacccgcgg
+     2941 atcgaaccgg ccttgaccgc ctcgtcgagc gccgggacca gatccagcgc ggccggcacc
+     3001 ggcaggtcgc cgacgtgcag ctggtacagg tcgatgtagt cggtaccgag ccggcgcagg
+     3061 gatgcctcca gcgcggtgcg caccccggcc ggcgtggtgt ccctgccgcc cttctgccgg
+     3121 gtctgctcgt cgaacaggtt gccccacttg gtggcgatga ccgcccggtc ccggtcggcc
+     3181 cccagcgccc ggccgagtac ccgctcgctg tgcccgcacc cgtacacgtt ggcggtgtcg
+     3241 aagaaggtga cgcccaggtc gagcgcgcgg cgcacggcgc gcaccgactc ctcgtcgtcg
+     3301 acctctcccc agcccagcgg ctggtcaccg gaccagaacg gaccgccgat cgcccagcag
+     3361 cccatgccga gcgcgctgac ctcgatccca cttcgtccca gaattcgtgt cgacatcatt
+     3421 tgctcaccct tccacctgga gtgcactcga aggcaaccgg tgaaagcgtc ggggccctcg
+     3481 catgcgaggg ccc
+//
+
